@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>三个DIV浮动</title>
+    <style type="text/css">
+        #div_01{
+            float: left;
+            width: 200px;
+            height: 400px;
+            background-color: #009998;
+            position: fixed;
+        }
+        #div_02{
+            height:1500px;
+            text-align: center;
+            background-color: #FFFFFF;
+            overflow: auto;
+        }
+        #div_03{
+            top: 8px;
+            float: left;
+            width: 200px;
+            height: 400px;
+            background-color: #5890ad;
+            margin-left: 1700px;
+            position: fixed;
+         }
+    </style>
+</head>
+<body>
+<div style="width:1000px;height:auto;background:#fff;overflow: hidden;">
+    <div id="div_01">左菜单</div>
+    <div id="div_02">
+        <article style="top: 100px;">内容页</article>
+    </div>
+    <div id="div_03">右菜单</div>
+</div>
+</body>
+</html>
