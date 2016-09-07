@@ -1,0 +1,16 @@
+.left{
+	background: pink;
+	float: left;
+	width: 180px;
+}
+.center{
+	background: lightyellow;
+	overflow: hidden;
+	height: 116px;
+}
+
+.right{
+	background: lightblue;
+	width: 180px;
+	float: right;
+}
